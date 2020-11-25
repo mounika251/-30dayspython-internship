@@ -13,8 +13,8 @@ print(fruits)
 
 #3)write a python program to two lists into a dictionary 
 
-a={"apple","banana","orange"}
-b={2,3,4}
+a=["apple","banana","orange"]
+b=[2,3,4]
 print("the value of a ",a) 
 print("the value of b ",b) 
 temp={}
