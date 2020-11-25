@@ -24,3 +24,17 @@ for i in a:
     b.remove(j)
     break
 print("after mapping two lists in a dictionary ",temp)
+
+#4) write a python program to find the length of a set
+
+a={"apple","orange","banana","mango"}
+print(len(a))
+
+#5) write a python program to remove the intersection of a 2nd set from the 1st set
+
+a={1,2,3,4,5}
+b={4,5,6,7,8}
+print("the set value of a ",a)
+print("the set value of b ",b)
+a.difference_update(b)
+print("remove the intersection of 2nd set from set from the 1st set ",a)
