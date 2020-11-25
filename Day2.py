@@ -11,20 +11,11 @@ Print("divided a by 10 =",div)
 print("multiply b by 50 =",mul) 
 print("add c by 60 =",add) 
 
-
-Output 
-divide a by 10 = 4
-multiply b by 50 = 2000
-add c by 60 = 100
-
 #2. Create a string variable of 5 characters and replace the 3 rd character with g 
 
 str="madam"
 rep=str.replace("d","g")
-Print("replace 3 rd character with g is ",rep)
-
-Output
-replace 3 rd character with g is magam
+Print("replace 3 rd character with g is",replace) 
 
 #3.create 2 values (a, b) of int, float data type and convert the vice versa 
 
@@ -39,11 +30,3 @@ print('converting the value a from int to float ',c)
 print('before converting the value of b is in float data type ',b) 
 print('converting the value of b from float to int ',d) 
 
-Output
-
-Enter the value of a = 5
-Enter the value of b = 10
-before converting the value of a is in int data type 5)
-converting the value of a from int to float 5.0
-before converting the value of b is in float data type 10.0
-converting the value of b from float to int 10
