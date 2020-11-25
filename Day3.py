@@ -22,7 +22,7 @@ for i in a:
   for j in b:
     temp[i]=j
     b.remove(j)
-    break
+  break
 print("after mapping two lists in a dictionary ",temp)
 
 #4) write a python program to find the length of a set
