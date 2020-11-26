@@ -28,11 +28,6 @@ l1=[1,2,3,4]
 l1.pop()
 print(l1)
 
-using del keyword 
-l1=[1,2,3,4]
-del l1
-print(l1)
-
 using clear() method
 l1=[1,2,3,4,5]
 l1.clear()
