@@ -5,21 +5,24 @@
 #Division of two numbers is +value
 #Multiplication of two numbers is +value
 
-def add_num(a,b):
-    sum=a+b
-    sub=a-b
-    mul=a*b
-    div=a/b
-    return sum,sub,mul,div;
 num1=int(input("Enter 1st number :"))
 num2=int(input("Enter 2nd number :"))
-print("add,sub,mul,div",add_num(num1,num2))
+def add_num(a,b):
+    print("addition of two numbers:",a+b)
+    print("subtraction of two numbers:",a-b) 
+    print("multiplication of two numbers:",a*b)
+    print("division of two numbers:",a/b)
 
+add_num(num1,num2)
 
 
 #2)Create a function covid( ) & it should accept patient name, and body temperature, by default the body temperature should be 98 degree
 
-def covid(name,temp=98):
-    return n,temp
-n=input('enter name: ')
-print('patient name and body temperature',covid(n))
+n=input("Enter patient name :")
+def covid(name,temp):
+    print("name  of patient:",name)
+    print("body temperature:" ,temp) 
+    
+
+covid(n,98)
+
