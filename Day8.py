@@ -86,6 +86,17 @@ except Exception as e:
         print(l)
  except NameError:
     print("variable is not defined")
+#4)When try-except scenario is not required?
+
+#An exception can be defined as an unusual condition in a program resulting in the interruption in the flow of the program.
+#Whenever an exception occurs, the program stops the execution, and thus the further code is not executed. Therefore, an exception is the run-time errors that are unable to handle to Python script. An exception is a Python object that represents an error
+#Python provides a way to handle the exception so that the code can be executed without any interruption. If we do not handle the exception, the interpreter doesn't execute all the code that exists after the exception.
+
+try:
+    a=10/10
+    print(a)
+except ZeroDivisionError :
+    print("unable to divide by zero")
 
 #5)Try getting gan input  inside the try catch block
 try:
