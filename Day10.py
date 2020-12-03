@@ -35,5 +35,40 @@ if __name__ == '__main__' :
 #3)Write a Python program to check for a number at the end of a word/sentence.
 
 
-  
+import re 
+s = "python is a popular programming language "
+print ("The original string is : " +  s) 
+res = len(re.findall(r'\w+', s)) 
+print ("The number of words in string are : " +  str(res)) 
+
+#4)Write a Python program to search the numbers (0-9) of length between 1 to 3 in a given string
+
+
+import re
+res = re.finditer(r"([0-9]{1,3})", "Exercises number 1, 12,2,3and 13 are important")
+print("Number of length 1 to 3")
+for num in res:
+     print(num.group(0))
+
+#5)Write a Python program to match a string that contains only uppercase letters
+
+
+     
+    
+import re
+def demo(s):
+        patterns = '^[A-Z]*$'
+        if re.search(patterns, s):
+                return (s, 'Found a match!')
+        else:
+                return(s,'Not matched!')
+
+print(demo("PYTHON"))
+print(demo("WELCOME"))
+print(demo("HelloWorld"))
+print(demo("python"))
+print(demo("Python"))
+
+	 
+	 
     
