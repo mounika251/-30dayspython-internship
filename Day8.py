@@ -17,7 +17,7 @@ except KeyError:
 print("3.module not found error")
 try:
     import list 
-except:
+except MoudleNotFoundError:
     print("module not found")
 
 print("4.zero division error ")
@@ -86,3 +86,12 @@ except Exception as e:
         print(l)
  except NameError:
     print("variable is not defined")
+
+#5)Try getting gan input  inside the try catch block
+try:
+    n1=int(input("enter num1: "))
+    n2=int(input("enter num2: "))
+    div=n1/n2
+    print("result ",div)
+except Exception as e:
+    print(e)
